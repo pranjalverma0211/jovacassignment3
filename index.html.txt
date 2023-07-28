@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Quotes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 47px;
+    background-color: rgb(10, 77, 10);
+    position: sticky;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 26px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    width: 100%;
+    color: li;
+    cursor: pointer;
+    color: black;
+}
+
+.leftbar{
+    font-size: 1.5rem;
+    color: white;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 11px;
+}
+
+.newquote{
+    width: 350px;
+    max-width: 540px;
+    margin: 11px auto 21px;
+    padding: 31px 31px 21px;
+    border-radius: 9px;
+    background-color: rgba(32, 113, 32, 0.782);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    flex: 1;
+    border: black;
+    font-weight: 14px;
+}
+
+.row button{
+    padding: 7px 6px;
+    width: fit-content;
+    margin-top: 11px;
+    background-color: rgb(8, 48, 8);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.row button:hover{
+    cursor: pointer;
+    background: rgb(17, 123, 17);
+    transform: scale(1.3);
+}
+
+#name{
+    margin-top: 4px;
+}
+
+#quote{
+    margin-top: 4px;
+}
+
+.quote{
+    margin-top: 5px;
+}
+
+.quotes{
+    width: 450px;
+    
+}
+.quotes ul li{
+    list-style: none;
+    font-size: 32px;
+    user-select: none;
+    position: relative;
+    left: 400px;
+    right: 110px;
+
+}
+
+.quotes li:nth-of-type(1){
+    background-color: skyblue;
+    margin-top: 13px;
+}
+.quotes li:nth-of-type(2){
+    margin-top: 21px;
+    background-color: skyblue;   
+}
+.quotes li:nth-of-type(3){
+    margin-top: 21px;
+    background-color: skyblue;   
+}
+.quotes li:nth-of-type(4){
+    margin-top: 21px;
+    background-color: skyblue; 
+}
+.quotes li:nth-of-type(5){
+    margin-top: 21px;
+    background-color: skyblue;
+}
+.quotes li:nth-of-type(6){
+    margin-top: 21px;
+    background-color: skyblue;  
+}
+.quotes li:nth-of-type(7){
+    margin-top: 21px;
+    background-color: skyblue;
+}
+.quotes li:nth-of-type(8){
+    margin-top: 21px;
+    background-color: skyblue;
+}
+
+.quotes .b{
+    padding: 5px 5px;
+    text-decoration: none;
+    background-color: rgb(8, 48, 8);
+    font-size: 15px;
+    color: white;
+    margin: 32px 5px;
+    box-shadow: 
+    inset0 -3em 3em skyblue,
+    0 0 0 2px skyblue,
+    0 1.2em 2em skyblue;
+    transition: 0.5s;
+}
+.quotes .b:hover{
+    cursor: pointer;
+    background-color: rgb(17, 123, 17);
+    transform: scale(1.1);
+}
+</style>
+<body>
+    <header>
+        <nav>     
+            <div class="leftbar"><strong>Great Quotes</strong></div>     
+            <div class="rightbar">
+                <ul>    
+                    <li id="first"><a href="/allquotes.html">All Quotes</a></li>
+                    <li id="second"><a href="/newquotes.html">New Quotes</a></li>
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <h1>AllQuotes</h1>
+    <div class="quotes">
+        <ul>
+            <li>
+                <h5>MY NAME IS PRANJAL VERMA</h5>
+                <h6 class="sub">~Pranjal Verma	  <button class="b">View full Quote</button></h6>
+                
+            </li>
+            <li>
+                <h5>MY NAME IS AARAV VERMA</h5>
+                <h6 class="sub">~Aarav Verma	<button class="b">View full Quote</button></h6>
+                
+            </li>
+            <li>
+                <h5>MY NAME IS PRATEEK VERMA</h5>
+                <h6 class="sub">~Prateek Verma	<button class="b">View full Quote</button></h6>
+                
+            </li>
+            <li>
+                <h5>MY NAME IS KAVITA VERMA</h5>
+                <h6 class="sub">~Kavita Verma	<button class="b">View full Quote</button></h6>
+               
+            </li>
+            <li>
+                <h5>MY NAME IS ISHAN VERMA</h5>
+                <h6 class="sub">~Ishan Verma	<button class="b">View full Quote</button></h6>
+               
+            </li>
+            <li>
+                <h5>MY NAME IS 	AKHILESH SINGH</h5>
+                <h6 class="sub">~Akhilesh singh	   <button class="b">View full Quote</button></h6>
+                
+            </li>
+            <li>
+                <h5>MY NAME IS ABHISHEK SINGH</h5>
+                <h6 class="sub">~Abhishek Singh	    <button class="b">View full Quote</button></h6>
+               
+            </li>
+            <li>
+                <h5>MOST PAMPERED KID</h5>
+                <h6 class="sub">~Family	   <button class="b">View full Quote</button></h6>
+                
+            </li>
+        </ul>
+    </div>
+    <script>
+        document.getElementById('first').addEventListener('click', function() {
+            const savedQuotes = JSON.parse(localStorage.getItem('quotes')) || [];
+            localStorage.setItem('quotesToShow', JSON.stringify(savedQuotes));
+            window.location.href = 'allquotes.html';
+        });
+
+    </script>
+</body>
+</html>
